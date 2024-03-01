@@ -1,0 +1,14 @@
+{
+  "item.testmod.ruby": "Ruby",
+  "item.testmod.raw_ruby": "Raw Ruby",
+
+  "block.testmod.ruby_block": "Ruby Block",
+  "block.testmod.raw_ruby_block": "Raw Ruby Block",
+
+  "block.testmod.ruby_ore": "Ruby Ore",
+  "block.testmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.testmod.nether_ruby_ore": "Nether Ruby Ore",
+  "block.testmod.endstone_ruby_ore": "Endstone Ruby Ore",
+
+  "itemgroup.ruby": "Ruby TestMod Group"
+}

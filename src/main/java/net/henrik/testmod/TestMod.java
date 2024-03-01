@@ -2,6 +2,9 @@ package net.henrik.testmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.henrik.testmod.block.ModBlocks;
+import net.henrik.testmod.item.ModItemGroups;
+import net.henrik.testmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +14,9 @@ public class TestMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemsGroups();
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
